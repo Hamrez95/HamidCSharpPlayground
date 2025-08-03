@@ -2,12 +2,12 @@
 
 namespace HamidCSharpPlayground
 {
-    public class customer
+    public class Customer
     {
         public string Name { get; set; }
         private IDiscountStrategy _discountStrategy;
 
-        public customer(string name, IDiscountStrategy discountStrategy)
+        public Customer(string name, IDiscountStrategy discountStrategy)
         {
             Name = name;
             _discountStrategy = discountStrategy;
